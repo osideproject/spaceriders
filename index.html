@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Space Rider Xmas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link href="./style.css?sp1" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="./main.js?sp1" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <meta name="description" content="Add a Xmas hat to your pfp.">
+    <meta property="og:title" content="Space Riders Xmas" />
+    <meta property="og:description" content="Add a Xmas hat to your pfp." />
+    <meta property="og:image" content="https://i.seadn.io/gcs/files/96b1148c744ac5acf71a1b2d50e24186.png?auto=format&dpr=1&w=500" />
+  </head>
+  <body>
+    <div class='page-top container-fluid'>
+      <div class='row'>
+        <div class="col-12 text-center mb-4">
+          <img class='nav-logo' src='./images/header.png'>
+        </div>
+      </div>
+      <div class='row'>
+        <div class="col-12 text-center mb-4">
+          <input type='text' id='token_id' class='p-2' placeholder='Enter Space Rider #' class='p-2'><br>
+          <span id="find_button" class='primary_button'>Find my Rider</span>
+          <span id="download_button" class='primary_button'>Download</span>
+        </div>
+      </div>
+      <div class='row'>
+        <div class="col-12 text-center mb-4">
+          <div class="layers">
+            <span class='error'>Cannot Find Space Rider</span>
+            <canvas class='layer' id='pfp'></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+    <canvas id="canvas" style="display:none;"></canvas>
+  </body>
+</html>
