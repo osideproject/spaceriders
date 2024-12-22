@@ -102,7 +102,7 @@ a.navbar-brand:hover {
 .primary_button {
   color: #fff;
   background: #29084A;
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 900;
   padding: 20px;
   cursor: pointer;
@@ -132,13 +132,12 @@ a.navbar-brand:hover {
   position: relative;
 }
 #download_banner {
-  max-width: 300px;
-  width: 50%;
-  left: 50%;
+  max-width: 200px;
+  width: 40%;
+  left: 40%;
   margin: auto;
 }
 .banner_preview img {
-  position: absolute;
   overflow: hidden;
 }
 .img1 {
@@ -162,10 +161,7 @@ a.navbar-brand:hover {
 }
 @media only screen and (max-width: 990px) {
   .nav-logo {
-    width: 80vw;
-  }
-  #token_id {
-    width: 100%;
+    width: 60vw;
   }
   .header-img {
     width: 40%;
@@ -213,7 +209,7 @@ a.navbar-brand:hover {
     text-align: left;
   }
   #download_button, #find_button {
-    width: 95vw;
+    width: 60vw;
   }
   .layer {
     width: 60vw;
